@@ -8,6 +8,6 @@ class Loader
 {
     public function index()
     {
-        echo 'I Love You !';
+        echo 'I Love You !!!';
     }
 }
