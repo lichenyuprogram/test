@@ -1,0 +1,21 @@
+{
+    "name": "lichenyu/test",
+    "description": "test pkg",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liyong",
+            "email": "947313347@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "Test\\Library\\": "src/Test/Library"
+        }
+    }
+}
